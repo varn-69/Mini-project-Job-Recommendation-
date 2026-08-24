@@ -1,0 +1,11 @@
+job_id,job_title,skills,experience_required,education_required,location,salary,description
+J001,Data Analyst,"Python, SQL, Excel, Power BI",0,Bachelor,Delhi,500000,"Analyze business data using Python, SQL, Excel and Power BI to build dashboards and reports for stakeholders."
+J002,Data Scientist,"Python, Machine Learning, Pandas, Statistics, SQL",2,Master,Bangalore,1200000,"Build predictive models with Python, machine learning and statistics. Work with pandas and SQL on large datasets."
+J003,ML Engineer,"Python, Machine Learning, TensorFlow, Docker, Git",1,Bachelor,Remote,1000000,"Design, train and deploy machine learning models using Python, TensorFlow and Docker in production pipelines."
+J004,Backend Developer,"Python, FastAPI, SQL, PostgreSQL, Git",1,Bachelor,Delhi,800000,"Develop REST APIs with Python and FastAPI, design PostgreSQL schemas and write efficient SQL queries."
+J005,Frontend Developer,"JavaScript, React, HTML, CSS, Git",0,Bachelor,Mumbai,600000,"Build responsive user interfaces with JavaScript, React, HTML and CSS. Collaborate with designers and backend developers."
+J006,Full Stack Developer,"JavaScript, React, Node.js, SQL, Git",2,Bachelor,Bangalore,900000,"Work across the stack with React and Node.js, integrate SQL databases and ship end-to-end web features."
+J007,Cloud Engineer,"AWS, Linux, Python, Terraform, Networking",2,Bachelor,Hyderabad,1100000,"Provision and manage AWS cloud infrastructure with Terraform, automate operations with Python on Linux."
+J008,DevOps Engineer,"Docker, Kubernetes, CI/CD, Linux, AWS",3,Bachelor,Remote,1300000,"Maintain CI/CD pipelines, container platforms with Docker and Kubernetes, and AWS infrastructure reliability."
+J009,Cybersecurity Analyst,"Networking, Linux, Python, SIEM, Security",1,Bachelor,Delhi,700000,"Monitor security events with SIEM tools, investigate incidents, harden Linux systems and automate checks with Python."
+J010,Software Engineer,"Python, Data Structures, Algorithms, Git, SQL",0,Bachelor,Pune,750000,"Design and implement software features in Python, apply data structures and algorithms, and collaborate via Git."
