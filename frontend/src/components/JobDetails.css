@@ -1,0 +1,283 @@
+.job-details {
+  width: 100%;
+}
+
+.back-button {
+  background: white;
+  color: #333;
+  border: 2px solid #e0e0e0;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.2s;
+}
+
+.back-button:hover {
+  background: #f5f5f5;
+  border-color: #667eea;
+}
+
+.details-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.details-title {
+  color: #333;
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.details-company {
+  color: #666;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.match-badge-large {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.details-section {
+  margin-bottom: 2rem;
+}
+
+.details-section h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.detail-label {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.detail-value {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.details-description {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.skill-tag.matched {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.skill-tag.missing {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.score-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.score-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.score-label {
+  width: 120px;
+  color: #555;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.score-bar {
+  flex: 1;
+  height: 24px;
+  background: #f0f0f0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.score-fill {
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.3s ease;
+}
+
+.score-fill.skill {
+  background: #4caf50;
+}
+
+.score-fill.experience {
+  background: #2196f3;
+}
+
+.score-fill.location {
+  background: #ff9800;
+}
+
+.score-fill.salary {
+  background: #e91e63;
+}
+
+.score-fill.education {
+  background: #9c27b0;
+}
+
+.score-value {
+  width: 50px;
+  text-align: right;
+  color: #333;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.skill-analysis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.skill-group h3 {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.no-skills {
+  color: #888;
+  font-style: italic;
+}
+
+.explain-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.explain-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.explain-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.explanation-content {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.explanation-section {
+  margin-bottom: 1.5rem;
+}
+
+.explanation-section:last-child {
+  margin-bottom: 0;
+}
+
+.explanation-section h3 {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.explanation-section p {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .details-card {
+    padding: 1.5rem;
+  }
+
+  .details-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .details-title {
+    font-size: 1.5rem;
+  }
+
+  .match-badge-large {
+    font-size: 1.2rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-analysis {
+    grid-template-columns: 1fr;
+  }
+
+  .score-item {
+    flex-wrap: wrap;
+  }
+
+  .score-label {
+    width: 100%;
+  }
+}
