@@ -253,7 +253,7 @@ if __name__ == "__main__":
     from app.ml.preprocess import load_and_preprocess_data
 
     # Load data
-    data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'jobs_sample.csv')
+    data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'jobs_real.csv')
     df = load_and_preprocess_data(data_path)
 
     # Initialize engine

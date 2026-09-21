@@ -9,7 +9,7 @@ import os
 router = APIRouter()
 
 # Load job data
-data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'jobs_sample.csv')
+data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'jobs_real.csv')
 jobs_df = load_and_preprocess_data(data_path)
 
 # Initialize recommendation engine

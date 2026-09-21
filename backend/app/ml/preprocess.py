@@ -152,7 +152,7 @@ def load_and_preprocess_data(input_path: str, output_path: str = None) -> pd.Dat
 
 if __name__ == "__main__":
     # Example usage
-    input_csv = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'jobs_sample.csv')
+    input_csv = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'jobs_real.csv')
     output_csv = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'jobs_processed.csv')
 
     if os.path.exists(input_csv):

@@ -31,7 +31,7 @@ const JobDetails = ({ job, onBack, onExplain, loading }) => {
             <div className="detail-item">
               <span className="detail-label">Salary Range</span>
               <span className="detail-value">
-                ₹{(job.salary_min / 100000).toFixed(1)}L - ₹{(job.salary_max / 100000).toFixed(1)}L
+                ${job.salary_min.toLocaleString()} - ${job.salary_max.toLocaleString()}
               </span>
             </div>
             <div className="detail-item">

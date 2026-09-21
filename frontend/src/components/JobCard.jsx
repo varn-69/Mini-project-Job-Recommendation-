@@ -26,7 +26,7 @@ const JobCard = ({ job, rank, onSelect }) => {
         <div className="job-detail">
           <span className="detail-label">Salary:</span>
           <span className="detail-value">
-            ₹{(job.salary_min / 100000).toFixed(1)}L - ₹{(job.salary_max / 100000).toFixed(1)}L
+            ${job.salary_min.toLocaleString()} - ${job.salary_max.toLocaleString()}
           </span>
         </div>
       </div>

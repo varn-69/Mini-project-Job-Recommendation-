@@ -163,7 +163,7 @@ The recommendation engine remains fully functional even without an OpenAI API ke
 
 ## 📁 Dataset Source
 
-This project uses a custom dataset of 25 tech jobs created for demonstration purposes. The dataset includes:
+This project uses a sample dataset of 25 tech jobs created for demonstration purposes. The dataset includes:
 
 - Job ID, Title, Company
 - Required Skills (normalized)
@@ -173,9 +173,13 @@ This project uses a custom dataset of 25 tech jobs created for demonstration pur
 - Education Requirements
 - Job Descriptions
 
-For production use, this can be replaced with larger public datasets such as:
-- Kaggle Job Postings datasets
-- Public ATS job board data
+**Note**: This is a sample dataset for demonstration. For production use, it should be replaced with a real public dataset such as:
+- [Canada Job Bank Open Data](https://open.canada.ca/data/en/dataset/ea639e28-c0fc-48bf-b5dd-b8899bd43072) - Official Government of Canada job postings
+- [Open Jobs Data](https://github.com/ConorsCode/open-jobs-data) - Free daily-updated dataset from ~380 tech companies
+- [Kaggle Job Postings datasets](https://www.kaggle.com/datasets) - Various public job posting datasets
+- [Zalize Tech Job Postings](https://huggingface.co/datasets/zalizedata/tech-job-postings-salary-dataset) - Tech job postings with salary data
+
+The dataset schema is designed to be compatible with these public sources, making it easy to swap in real data.
 
 ## 📂 Project Structure
 

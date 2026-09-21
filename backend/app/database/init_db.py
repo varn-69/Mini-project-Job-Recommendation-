@@ -61,7 +61,7 @@ if __name__ == "__main__":
     init_database()
 
     # Seed jobs from CSV
-    csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'jobs_sample.csv')
+    csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'data', 'jobs_real.csv')
     if os.path.exists(csv_path):
         seed_jobs_from_csv(csv_path)
     else:
